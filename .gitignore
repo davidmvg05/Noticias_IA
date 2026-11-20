@@ -1,0 +1,28 @@
+# Ambientes virtuais e Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Segredos e credenciais (NUNCA versionar)
+.env
+.env.*
+.streamlit/secrets.toml
+*serviceAccount*.json
+*firebase*adminsdk*.json
+credentials.json
+
+# Caches e dados temporários locais
+.tmp/
+*.log
+
+# IDE, Agentes e OS
+.agents/
+.devcontainer/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
